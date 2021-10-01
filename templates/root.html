@@ -4,13 +4,15 @@
     <head>
         <meta charset="UTF-8">
         <title>
-            {% block header %}{% endblock %}
+            {% block titulo %}{% endblock %}
         </title>
+        {% block headers %}{% endblock %}
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link href="style.css" rel="stylesheet">
         <link href="icon.ico" rel="shortcut icon">
     </head>
     <body class="body">
+      <div class="adelantefondo">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="index.html">Home</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,15 +37,8 @@
                 </li>  
               </ul>
             </div>
-          </nav>
-        <div class="principal" id="principal">
-            <br />
-            <br />
-            <h1>{% block titulo %}{% endblock %}</h1>
-            <br />
-            <br />
+        </nav>
+      </div>
             {% block principal %}{% endblock %}
-            <h6 class="creditos"><ul>Por Luciano Grinberg y Sebastián Felgueras</ul></h6>
-        </div>
     </body>
 </html>
