@@ -70,21 +70,15 @@ h2.heading {
 	}
   
 	to {
-	  margin-left: 0%;
+	  margin-left: 50%;
 	}
   }
   
 
 #slide {
-    position: absolute;
-    left: -100px;
 	opacity: 0;
-	-webkit-animation: slidein 1s;
-    -webkit-animation-delay: 2s;
     animation: slidein 1s;
     animation-delay: 2s;
-    -webkit-animation: fadein 2s;
-    -webkit-animation-delay: 2s;
     animation: fadein 2s;
     animation-delay: 2s;
 }
