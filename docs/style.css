@@ -77,7 +77,7 @@ h2.heading {
 #slide {
 	animation: slidein 2s;
     animation: fadein 2s;
-    animation-delay: 2s;
+    animation-delay: 1s;
 }
 
 .fondoBurbujas{
