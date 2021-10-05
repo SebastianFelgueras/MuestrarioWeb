@@ -54,14 +54,37 @@ h2.heading {
 	padding-bottom: 2rem;
 }
 
+@keyframes fadein { 
+	0% {
+	  opacity: 0;
+	}
+  
+	100% {
+	  opacity: 1;
+	}
+  }
+
+@keyframes slidein { 
+	0% {
+		left: -100px;
+	}
+  
+	100% {
+	  left: 0px;
+	}
+}
+  
+
 #slide {
     position: absolute;
     left: -100px;
-	opacity: 1;
-    transition: opacity 2s;
-    -webkit-animation: slide 0.5s forwards;
+	-webkit-animation: slidein 1s;
     -webkit-animation-delay: 2s;
-    animation: slide 0.5s forwards;
+    animation: slidein 1s;
+    animation-delay: 2s;
+    -webkit-animation: fadein 2s;
+    -webkit-animation-delay: 2s;
+    animation: fadein 2s;
     animation-delay: 2s;
 }
 
