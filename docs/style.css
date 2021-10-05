@@ -1,10 +1,11 @@
 .body{
+    background-color: lightblue;
     background: -webkit-radial-gradient(center, #0162ff48, lightblue);
     background: -moz-radial-gradient(center, #0162ff48, lightblue);
     background: radial-gradient(ellipse at center, #0162ff48, lightblue);
 }
 .principal{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.027);
     width: 100%;
 	max-width: 100%;
 	position: absolute;
