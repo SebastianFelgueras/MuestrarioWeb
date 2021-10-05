@@ -64,21 +64,8 @@ h2.heading {
 	}
   }
 
-  @keyframes slidein {
-	from {
-	  margin-left: 0%;
-	}
-  
-	to {
-	  margin-left: 50%;
-	}
-  }
-  
-
 #slide {
 	opacity: 0;
-    animation: slidein 1s;
-    animation-delay: 2s;
     animation: fadein 2s;
     animation-delay: 2s;
 }
