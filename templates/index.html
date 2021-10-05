@@ -4,8 +4,10 @@
 <link rel="stylesheet" href="./fondo.css">
 {% endblock %}
 {% block principal %}
+<div id="progressbar" style="width: 0%;"></div>
+<div id="scrollPath"></div>
 <div class="fondoBurbujas">{% include 'fondo.html' %}</div>
-<div class="principal center-block text-center">
+<div class="slide-in principal center-block text-center">
     <h3>Titulo</h3>
     <h2>¿Quiénes somos?</h2>
     <a class="btn btn-outline-light" href="#info">Más Info</a>
