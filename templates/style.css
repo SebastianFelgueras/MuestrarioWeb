@@ -8,13 +8,13 @@
 	top: 40%;
 	z-index: 1;
 }
-.principal h3 {
-color: #002c72;
+.titulo {
+	color: #002c72;
 	font-size: 3.2rem;
 	text-transform: uppercase;
 }
 
-.principal h2 {
+.subtitulo {
 padding: 0 2rem;
 }
 
