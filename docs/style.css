@@ -85,12 +85,12 @@ h2.heading {
 }
 
 #slide-left {
-	animation: slidein-left 2s, fadein 3s;
-    animation-delay: 1s;
+	animation: slidein-left 2s, fadein 2s;
+    animation-delay: 0.3s;
 }
 #slide-right {
-	animation: slidein-right 2s, fadein 3s;
-    animation-delay: 1s;
+	animation: slidein-right 4s, fadein 2s;
+    animation-delay: 0.3s;
 }
 /* fin de animaciones */
 
