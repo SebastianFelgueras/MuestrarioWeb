@@ -1,11 +1,24 @@
 .body{
     background-color: lightblue;
 }
+#separador {
+    width: 100% !important;
+    height: 7rem !important;
+    z-index: 1 !important;
+  }
+.separador-abajo {
+    filter: drop-shadow(2px -10px 5px rgba(0, 0, 0, 0.2));
+    margin-top: 3rem;
+    margin-bottom: -7px;
+}
+.separador-arriba{
+    filter: drop-shadow(5px 10px 5px rgba(0, 0, 0, 0.2));
+    margin-bottom: 3rem;
+  }
 .principal{
-    background-color: rgba(255, 160, 122,0.30);
-    width: 80%;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
     margin: auto;
-    border-radius: 25px;
 }
 .fondoBurbujas{
     z-index: -1;
