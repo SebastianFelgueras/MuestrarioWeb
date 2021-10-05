@@ -84,7 +84,7 @@ h2.heading {
 	}
 }
 
-@keyframes slidein-down {
+@keyframes slidein-bottom {
 	from {
 	  margin-bottom: 100%;
 }
@@ -103,7 +103,7 @@ h2.heading {
     animation-delay: 1s;
 }
 #slide-bottom {
-	animation: slidein-right 2s, fadein 3s;
+	animation: slidein-bottom 2s, fadein 3s;
     animation-delay: 1s;
 }
 /* fin de animaciones */
