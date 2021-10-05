@@ -2,7 +2,6 @@
     background-color: rgba(114, 146, 156, 0.774);
 }
 .principal{
-    background-color: rgba(0, 0, 0, 0.027);
     width: 100%;
 	max-width: 100%;
 	position: absolute;
@@ -10,7 +9,7 @@
 	z-index: 1;
 }
 .principal h3 {
-color: #7cafff;
+color: #002c72;
 	font-size: 3.2rem;
 	text-transform: uppercase;
 }
