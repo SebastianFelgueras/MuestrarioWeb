@@ -78,6 +78,7 @@ h2.heading {
 #slide {
     position: absolute;
     left: -100px;
+	opacity: 0;
 	-webkit-animation: slidein 1s;
     -webkit-animation-delay: 2s;
     animation: slidein 1s;
