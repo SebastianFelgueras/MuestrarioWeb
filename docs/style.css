@@ -84,26 +84,12 @@ h2.heading {
 	}
 }
 
-@keyframes slidein-bottom {
-	from {
-	  margin-bottom: 100%;
-}
-  
-	to {
-	  margin-bottom: 0%;
-	}
-}
-
 #slide-left {
 	animation: slidein-left 2s, fadein 3s;
     animation-delay: 1s;
 }
 #slide-right {
 	animation: slidein-right 2s, fadein 3s;
-    animation-delay: 1s;
-}
-#slide-bottom {
-	animation: slidein-bottom 2s, fadein 3s;
     animation-delay: 1s;
 }
 /* fin de animaciones */
