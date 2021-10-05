@@ -11,12 +11,12 @@
 
         <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-        <script src="slide.js" defer></script>
+        <script src="javascript.js" defer></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link href="style.css" rel="stylesheet">
         <link href="icon.ico" rel="shortcut icon">
     </head>
-    <body class="body">
+    <body class="body" onload="fadeIn()">
         <nav class="navbar navbar-expand-lg adelantefondo">
             <a class="navbar-brand" href="index.html">Home</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -262,9 +262,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 <span class='particle fondoBurbujas'></span>
 <span class='particle fondoBurbujas'></span></div>
 <div class="principal center-block text-center">
-    <h3 id="slide-left">Titulo</h3>
-    <h2 id="slide-right">¿Quiénes somos?</h2>
-    <a class="btn btn-outline-light" href="#info" id="slide-left">Más Info</a>
+    <h3>Titulo</h3>
+    <h2>¿Quiénes somos?</h2>
+    <a class="btn btn-outline-light" onclick="fadeOut(), scrollDown()">Más Info</a> <!-- dejo las funciones que tendria que hacer: animacion fachera y luego scrollear-->
 </div>
 
     </body>
