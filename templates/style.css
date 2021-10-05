@@ -1,5 +1,7 @@
 .body{
-    background-color: lightblue;
+    background: -webkit-radial-gradient(center, #0162ff48, lightblue);
+    background: -moz-radial-gradient(center, #0162ff48, lightblue);
+    background: radial-gradient(ellipse at center, #0162ff48, lightblue);
 }
 .principal{
     background-color: rgba(0, 0, 0, 0.3);
@@ -8,9 +10,6 @@
 	position: absolute;
 	top: 40%;
 	z-index: 1;
-    background: -webkit-radial-gradient(center, #0164FF, #000000);
-background: -moz-radial-gradient(center, #0164FF, #000000);
-background: radial-gradient(ellipse at center, #0164FF, #000000);
 }
 .principal h3 {
 color: #7cafff;
