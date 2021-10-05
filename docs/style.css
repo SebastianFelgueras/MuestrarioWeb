@@ -53,7 +53,7 @@ h2.heading {
 	color:white;
 	padding-bottom: 2rem;
 }
-
+/* animaciones */
 @keyframes fadein { 
 	0% {
 	  opacity: 0;
@@ -63,22 +63,50 @@ h2.heading {
 	  opacity: 1;
 	}
   }
-@keyframes slidein {
+
+@keyframes slidein-left {
 	from {
 	  margin-left: 100%;
 }
   
 	to {
-	  margin-left: 50%;
+	  margin-left: 0%;
 	}
 }
-  
 
-#slide {
-	animation: slidein 2s;
-    animation: fadein 2s;
+@keyframes slidein-right {
+	from {
+	  margin-right: 100%;
+}
+  
+	to {
+	  margin-right: 0%;
+	}
+}
+
+@keyframes slidein-down {
+	from {
+	  margin-bottom: 100%;
+}
+  
+	to {
+	  margin-bottom: 0%;
+	}
+}
+
+#slide-left {
+	animation: slidein-left 2s, fadein 3s;
     animation-delay: 1s;
 }
+#slide-right {
+	animation: slidein-right 2s, fadein 3s;
+    animation-delay: 1s;
+}
+#slide-bottom {
+	animation: slidein-right 2s, fadein 3s;
+    animation-delay: 1s;
+}
+/* fin de animaciones */
 
 .fondoBurbujas{
     z-index: -1;
