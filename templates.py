@@ -20,6 +20,6 @@ while True:
                 final.write(outputText)
         ultimo_renderizado_correcto = 0
     except:
-        ultimo_renderizado_correcto += 1
+        ultimo_renderizado_correcto += tiempo_entre_renderizados
     print(f"Ultimo renderizado correcto hace {ultimo_renderizado_correcto} segundos",end='\r',flush=True)
     sleep(tiempo_entre_renderizados)
